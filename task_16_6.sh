@@ -16,7 +16,7 @@ sudo docker compose down 2>/dev/null || true
 sudo docker compose up -d --build
 
 echo "Ожидаем запуск сервисов..."
-sleep 30
+sleep 60
 
 echo "Развертывание завершено!"
 echo "URL: http://127.0.0.1:8090/"
